@@ -31,13 +31,15 @@ h1{
   padding-left: 20px;
   margin-top: 50px;
   margin-bottom: 40px;
+  font-weight: 400;
 }
 #menu{
   display: flex;
   flex-wrap:wrap;
   gap: 50px;
   justify-content: center;
-  padding-bottom: 15px;
+  padding-bottom: 45px;
+  padding-top: 20px;
 }
 .menu_it{
   font-size: 24px;
@@ -50,8 +52,10 @@ h1{
   background:#1A676C;
 }
 h2{
+  font-size: 30px;
   margin: 0px;
   padding: 10px;
+  font-weight: 300;
 }
 #top_menu{
   display: flex;
@@ -82,6 +86,7 @@ h2{
   font-size: 36px;
   color: white;
   padding: 10px;
+  font-weight: 300;
 }
 #text2{
   text-align: center;
@@ -105,6 +110,7 @@ h2{
   font-size: 36px;
   color: white;
   padding: 10px;
+  font-weight: 300;
 
 }
 #row2{
@@ -120,6 +126,8 @@ h2{
   width: 485px;
   font-size: 36px;
   text-align: center;
+  font-weight: 300;
+  align-self: center;
 }
 #row3{
   background:#E2FDFF;
@@ -135,6 +143,7 @@ h2{
   background: #259BA3;
   text-align: center;
   padding: 10px;
+  font-weight: 300;
 }
 #row4{
   background:#E2FDFF;
@@ -153,6 +162,7 @@ h2{
   text-align: center;
   margin-top: 20px;
   padding: 10px;
+  font-weight: 300;
 }
 #text7{
   border-radius: 16px;
@@ -165,6 +175,7 @@ h2{
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
+  font-weight: 400;
 }
 #text7:hover{
   background: #259BA3;
@@ -238,8 +249,11 @@ border-radius: 16px;
 {
   h1{
     font-size: 35px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+  h2{
+    font-size: 20px;
   }
   #text7{
     font-size: 30px;
@@ -249,9 +263,13 @@ border-radius: 16px;
   }
   #menu{
     gap:  15px;
+    margin-top: 0px;
   }
   #text1{
-    font-size: 20px;
+    font-size: 25px;
+  }
+  #text3{
+    font-size: 25px;
   }
   #text2{
     font-size: 30px;
@@ -261,10 +279,10 @@ border-radius: 16px;
     padding-bottom: 40px;
   }
   #text4{
-    font-size: 20px;
+    font-size: 25px;
   }
   #text5{
-    font-size: 20px;
+    font-size: 25px;
   }
   #text6{
     font-size: 25px;
